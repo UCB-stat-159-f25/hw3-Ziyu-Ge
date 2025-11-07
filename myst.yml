@@ -1,0 +1,14 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 692b6c03-13f9-4b19-a4f5-cbfe20ed4884
+  github: https://github.com/UCB-stat-159-f25/hw3-Ziyu-Ge
+
+site:
+  template: book-theme
+  nav:
+    - Home: README.md
+    - Event Notebook: LOSC_Event_tutorial.ipynb
+  actions:
+    - label: Launch Binder
+      url: https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-Ziyu-Ge/HEAD?labpath=LOSC_Event_tutorial.ipynb

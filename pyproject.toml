@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools >= 70", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligotools"
+authors = [
+  { name="Ligo Scientific Collaboration (LSC)" },
+  { name="Ziyu Ge" }
+]
+description = "Utilities for reading and processing LIGO LOSC data"
+readme = "README.md"
+
+requires-python = ">=3.9"
+
+dependencies = [
+  "numpy",
+  "scipy",
+  "h5py",
+  "matplotlib",
+]
+
+license = "BSD-3-Clause"
+license-files = ["LICEN[CS]E*"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
+
+keywords = ["ligo", "losc", "tools"]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/Ziyu-Ge/mytoy"
+Issues = "https://github.com/Ziyu-Ge/mytoy/issues"
+
+[tool.setuptools]
+packages = ["ligotools"]
+
+[tool.setuptools.dynamic]
+version = { attr = "ligotools.__version__" }
