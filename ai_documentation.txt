@@ -1,0 +1,3 @@
+I used ChatGPT  to:
+Help generate test scripts (test_readligo.py and test_utils.py) that followed the given specifications, while ensuring I understood each function’s purpose.
+Help draft Makefile (env, html, and clean) .
