@@ -7,8 +7,10 @@ project:
 site:
   template: book-theme
   nav:
-    - Home: README.md
-    - Event Notebook: LOSC_Event_tutorial.ipynb
+    - title: Home
+      url: https://github.com/UCB-stat-159-f25/hw3-Ziyu-Ge.git/README.md
+    - title: Event Notebook
+      url: https://github.com/UCB-stat-159-f25/hw3-Ziyu-Ge.git/LOSC_Event_tutorial.ipynb
   actions:
-    - label: Launch Binder
+    - title: Launch Binder
       url: https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-Ziyu-Ge/HEAD?labpath=LOSC_Event_tutorial.ipynb
